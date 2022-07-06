@@ -27,7 +27,7 @@ export class App extends Component {
   render() {
     return (
       <>
-        <Section title="Pleas leave feedback">
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.handleFeedback}
